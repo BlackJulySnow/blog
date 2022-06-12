@@ -30,3 +30,7 @@ npm install plugin --save
 ```
 
 4.如果需要安装主题，可以直接在hexo目录下执行git clone 主题仓库
+
+```shell
+git clone https://github.com/iissnan/hexo-theme-next themes/next
+```
