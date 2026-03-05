@@ -49,19 +49,19 @@ theme = 'PaperMod'
   [[menu.main]]
     identifier = 'posts'
     name = '📝 文章'
-    url = '/posts/'
+    url = '/posts'
     weight = 20
 
   [[menu.main]]
     identifier = 'tags'
     name = '🏷️ 标签'
-    url = '/tags/'
+    url = '/tags'
     weight = 30
 
   [[menu.main]]
-    identifier = 'search'
-    name = '🔍 搜索'
-    url = '/search/'
+    identifier = 'archives'
+    name = '📚 归档'
+    url = '/archives'
     weight = 40
 
 [markup]
