@@ -1,239 +1,74 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1314&amp;path=livereload" data-no-instant defer></script>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="robots" content="noindex, nofollow" />
-  <link rel="icon shortcut" href="/favicon.ico" sizes="32x32" />
-<link rel="icon" href="/favicon.svg" type="image/svg+xml" id="favicon-svg" />
-<link rel="icon" href="/favicon-16x16.png" type="image/png" sizes="16x16" />
-<link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32" />
-<link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
-<link fetchpriority="low" href="/site.webmanifest" rel="manifest" />
-<title>Posts – 我的博客</title>
-  <meta name="description" content="" /><link rel="canonical" href="http://localhost:1314/posts/" itemprop="url" />
-
-<meta property="og:title" content="Posts">
-<meta
-  property="og:description"
-  content="
-    
-      使用 Hugo 和 Hextra 主题搭建的个人博客
-    
-  ">
-<meta
-  property="og:type"
-  content="
-    website
-  ">
-<meta property="og:url" content="http://localhost:1314/posts/">
-
-
-  <meta itemprop="name" content="Posts">
-  <meta itemprop="description" content="使用 Hugo 和 Hextra 主题搭建的个人博客">
-  <meta itemprop="datePublished" content="2026-03-05T22:16:42+08:00">
-  <meta itemprop="dateModified" content="2026-03-05T22:16:42+08:00">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Posts">
-  <meta name="twitter:description" content="使用 Hugo 和 Hextra 主题搭建的个人博客">
-<link href="/css/compiled/main.css" rel="stylesheet" />
-    <link href="/css/variables.css" rel="stylesheet" />
-    <link href="/css/custom.css" rel="stylesheet" />
-
-  
-<script src="/js/main-head.js" integrity=""></script>
-
-  
-  
-  </head>
-<body>
-    <a href="#content" class="hx:sr-only hx:focus-visible:not-sr-only hx:focus-visible:fixed hx:focus-visible:z-50 hx:focus-visible:top-2 hx:focus-visible:left-2 hx:focus-visible:bg-primary-500 hx:focus-visible:text-white hx:focus-visible:px-4 hx:focus-visible:py-2 hx:focus-visible:rounded-md hx:focus-visible:text-sm hx:focus-visible:font-medium">跳至内容</a><div class="hextra-nav-container hx:sticky hx:top-0 hx:z-20 hx:w-full hx:bg-transparent hx:print:hidden">
-  <div
-    class="hextra-nav-container-blur hx:pointer-events-none hx:absolute hx:z-[-1] hx:h-full hx:w-full hx:bg-white hx:dark:bg-dark hx:shadow-[0_2px_4px_rgba(0,0,0,.02),0_1px_0_rgba(0,0,0,.06)] hx:contrast-more:shadow-[0_0_0_1px_#000] hx:dark:shadow-[0_-1px_0_rgba(255,255,255,.1)_inset] hx:contrast-more:dark:shadow-[0_0_0_1px_#fff]"
-  ></div>
-
-  <nav class="hextra-max-navbar-width hx:mx-auto hx:flex hx:items-center hx:justify-end hx:gap-2 hx:h-16 hx:px-6">
-    <a class="hx:flex hx:items-center hx:hover:opacity-75 hx:ltr:mr-auto hx:rtl:ml-auto" href="/">
-    <span class="hx:mr-2 hx:font-extrabold hx:inline hx:select-none">我的博客</span>
-</a>
-<a
-  title=""
-  href="/"
-  
-  class="hx:text-sm hx:contrast-more:text-gray-700 hx:contrast-more:dark:text-gray-100 hx:relative hx:-ml-2 hx:hidden hx:whitespace-nowrap hx:p-2 hx:md:inline-flex hx:items-center hx:gap-1 hx:text-gray-600 hx:hover:text-gray-800 hx:dark:text-gray-400 hx:dark:hover:text-gray-200"
-><span class="hx:text-center">首页</span>
-</a><a
-  title=""
-  href="/posts/"
-  
-  class="hx:text-sm hx:contrast-more:text-gray-700 hx:contrast-more:dark:text-gray-100 hx:relative hx:-ml-2 hx:hidden hx:whitespace-nowrap hx:p-2 hx:md:inline-flex hx:items-center hx:gap-1 hx:font-medium"
-><span class="hx:text-center">文章</span>
-</a><a
-  title=""
-  href="/about/"
-  
-  class="hx:text-sm hx:contrast-more:text-gray-700 hx:contrast-more:dark:text-gray-100 hx:relative hx:-ml-2 hx:hidden hx:whitespace-nowrap hx:p-2 hx:md:inline-flex hx:items-center hx:gap-1 hx:text-gray-600 hx:hover:text-gray-800 hx:dark:text-gray-400 hx:dark:hover:text-gray-200"
-><span class="hx:text-center">关于</span>
-</a><button type="button" aria-label="菜单" aria-expanded="false" class="hextra-hamburger-menu hx:cursor-pointer hx:-mr-2 hx:rounded-sm hx:p-2 hx:active:bg-gray-400/20 hx:md:hidden hx:hextra-focus-visible-inset"><svg height=24 fill="none" viewBox="0 0 24 24" stroke="currentColor"><g><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8H20"></path></g><g><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16H20"></path></g></svg></button>
-  </nav>
-</div>
-
-  <div class='hx:mx-auto hx:flex hextra-max-page-width'>
-    <aside class="hextra-sidebar-container hx:flex hx:flex-col hx:print:hidden hx:md:top-16 hx:md:shrink-0 hx:md:w-64 hx:md:self-start hx:max-md:[transform:translate3d(0,-100%,0)] hx:md:sticky">
-    <div class="hx:px-4 hx:pt-4 hx:md:hidden">
-      <div class="hextra-search-wrapper hx:relative hx:md:w-64">
-  <div class="hx:relative hx:flex hx:items-center hx:text-gray-900 hx:contrast-more:text-gray-800 hx:dark:text-gray-300 hx:contrast-more:dark:text-gray-300">
-    <input
-      placeholder="搜索文档..."
-      aria-label="搜索文档..."
-      class="hextra-search-input hx:hextra-focus-visible hx:block hx:w-full hx:appearance-none hx:rounded-lg hx:px-3 hx:py-2 hx:transition-colors hx:text-base hx:leading-tight hx:md:text-sm hx:bg-black/[.05] hx:dark:bg-gray-50/10 hx:focus-visible:bg-white hx:dark:focus-visible:bg-dark hx:placeholder:text-gray-500 hx:dark:placeholder:text-gray-400 hx:contrast-more:border hx:contrast-more:border-current"
-      type="search"
-      autocomplete="off"
-      value=""
-      spellcheck="false"
-    />
-    <kbd
-      class="hx:absolute hx:my-1.5 hx:select-none hx:ltr:right-1.5 hx:rtl:left-1.5 hx:h-5 hx:rounded-sm hx:bg-white hx:px-1.5 hx:font-mono hx:text-[10px] hx:font-medium hx:text-gray-500 hx:border hx:border-gray-200 hx:dark:border-gray-100/20 hx:dark:bg-dark/50 hx:contrast-more:border-current hx:contrast-more:text-current hx:contrast-more:dark:border-current hx:items-center hx:gap-1 hx:transition-opacity hx:pointer-events-none hx:hidden hx:sm:flex"
-    >
-      CTRL K
-    </kbd>
-  </div>
-
-  <div>
-    <ul
-      class="hextra-search-results hextra-scrollbar hx:hidden hx:border hx:border-gray-200 hx:bg-white hx:text-gray-100 hx:dark:border-neutral-800 hx:dark:bg-neutral-900 hx:absolute hx:top-full hx:z-20 hx:mt-2 hx:overflow-auto hx:overscroll-contain hx:rounded-xl hx:py-2.5 hx:shadow-xl hx:max-h-[min(calc(50vh-11rem-env(safe-area-inset-bottom)),400px)] hx:md:max-h-[min(calc(100vh-5rem-env(safe-area-inset-bottom)),400px)] hx:inset-x-0 hx:ltr:md:left-auto hx:rtl:md:right-auto hx:contrast-more:border hx:contrast-more:border-gray-900 hx:contrast-more:dark:border-gray-50 hx:w-screen hx:min-h-[100px] hx:max-w-[min(calc(100vw-2rem),calc(100%+20rem))]"
-      aria-label="搜索结果"
-      style="transition: max-height 0.2s ease 0s;"
-    ></ul>
-    <div class="hextra-search-status hx:sr-only" aria-live="polite" role="status"></div>
-  </div>
-</div>
-
-    </div><div class="hextra-scrollbar hx:overflow-y-auto hx:overflow-x-hidden hx:p-4 hx:grow hx:md:h-[calc(100vh-var(--navbar-height)-var(--menu-height))]">
-    <ul class="hx:flex hx:flex-col hx:gap-1 hx:md:hidden">
-      
-      
-    </ul>
-
-    <ul class="hx:flex hx:flex-col hx:gap-1 hx:max-md:hidden">
-        
-          <li class=""><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
-    <a
-      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
-      hx:hextra-focus-visible-inset
-        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/posts/hello-world/"
-      
-    >
-      <span class="hx:min-w-0 [word-break:break-word]">Hello World - 我的第一篇文章</span>
-    </a>
-  </div></li>
-        
-      </ul>
-    </div>
-  
-  
-    <div class="  hx:sticky hx:bottom-0 hx:max-h-(--menu-height) hx:bg-white hx:dark:bg-dark hx:mx-4 hx:py-4 hx:shadow-[0_-12px_16px_#fff] hx:flex hx:items-center hx:gap-2 hx:border-gray-200 hx:dark:border-neutral-800 hx:dark:shadow-[0_-12px_16px_#111] hx:contrast-more:border-neutral-400 hx:contrast-more:shadow-none hx:contrast-more:dark:shadow-none hx:border-t" data-toggle-animation="show"><div class="hx:flex hx:grow hx:flex-col"><div class="hx:flex hx:justify-items-start hx:group" data-theme="light">
-  <button
-    title="切换主题"
-    data-state="closed"
-    data-location="bottom"
-    class="hextra-theme-toggle hx:cursor-pointer hx:rounded-md hx:text-left hx:font-medium hx:h-7 hx:px-2 hx:text-xs hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:font-medium hx:text-gray-600 hx:transition-colors hx:dark:text-gray-400 hx:grow"
-    type="button"
-    aria-label="切换主题"
-    aria-expanded="false"
-    aria-haspopup="menu"
-  >
-    <div class="hx:flex hx:items-center hx:gap-2 hx:capitalize"><svg height=12 class="hx:group-data-[theme=dark]:hidden hx:group-data-[theme=system]:hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg><span class="hx:group-data-[theme=dark]:hidden hx:group-data-[theme=system]:hidden">浅色</span><svg height=12 class="hx:group-data-[theme=light]:hidden hx:group-data-[theme=system]:hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg><span class="hx:group-data-[theme=light]:hidden hx:group-data-[theme=system]:hidden">深色</span><svg height=12 class="hx:group-data-[theme=dark]:hidden hx:group-data-[theme=light]:hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  fill="currentColor">
-  <path d="M 11.996094,2 C 6.4986225,2.0192368 2.03125,6.5024993 2.03125,12 c 0,5.497501 4.4673725,9.980763 9.964844,10 H 12 12.0039 c 5.497471,-0.01924 9.964844,-4.502499 9.964844,-10 0,-5.4975007 -4.467373,-9.9807632 -9.964844,-10 H 12 Z M 12,4 c 4.417218,0.017598 7.96875,3.5822356 7.96875,8 0,4.417764 -3.551532,7.982402 -7.96875,8 z" />
-</svg>
-<span class="hx:group-data-[theme=dark]:hidden hx:group-data-[theme=light]:hidden">跟随系统</span></div>
-  </button>
-  <ul
-    class="hextra-theme-toggle-options hx:hidden hx:z-20 hx:max-h-64 hx:overflow-auto hx:rounded-lg hx:border hx:border-gray-200 hx:bg-white hx:p-1 hx:text-sm hx:shadow-lg hx:dark:border-neutral-700 hx:dark:bg-neutral-900"
-    style="position: fixed; inset: auto auto 0px 0px; margin: 0px; min-width: 100px;"
-    data-theme="light"
-    role="menu"
-  >
-    <li role="none" class="hx:flex hx:flex-col">
-      <button
-        type="button"
-        role="menuitemradio"
-        aria-checked="true"
-        tabindex="-1"
-        data-item="light"
-        class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9 hx:text-left hx:w-full hx:bg-transparent hx:border-0"
-      >
-        浅色
-         <span class="hx:absolute hx:inset-y-0 hx:flex hx:items-center hx:ltr:right-3 hx:rtl:left-3 hx:group-data-[theme=dark]:hidden hx:group-data-[theme=system]:hidden"><svg height=1em width=1em xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></span>
-      </button>
-    </li>
-    <li role="none" class="hx:flex hx:flex-col">
-      <button
-        type="button"
-        role="menuitemradio"
-        aria-checked="false"
-        tabindex="-1"
-        data-item="dark"
-        class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9 hx:text-left hx:w-full hx:bg-transparent hx:border-0"
-      >
-        深色
-         <span class="hx:absolute hx:inset-y-0 hx:flex hx:items-center hx:ltr:right-3 hx:rtl:left-3 hx:group-data-[theme=light]:hidden hx:group-data-[theme=system]:hidden"><svg height=1em width=1em xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></span>
-      </button>
-    </li>
-    <li role="none" class="hx:flex hx:flex-col">
-      <button
-        type="button"
-        role="menuitemradio"
-        aria-checked="false"
-        tabindex="-1"
-        data-item="system"
-        class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9 hx:text-left hx:w-full hx:bg-transparent hx:border-0"
-      >
-        跟随系统
-         <span class="hx:absolute hx:inset-y-0 hx:flex hx:items-center hx:ltr:right-3 hx:rtl:left-3 hx:group-data-[theme=dark]:hidden hx:group-data-[theme=light]:hidden"><svg height=1em width=1em xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></span>
-      </button>
-    </li>
-  </ul>
-</div>
-</div></div></aside>
-    
-<nav class="hextra-toc hx:order-last hx:hidden hx:w-64 hx:shrink-0 hx:xl:block hx:print:hidden hx:px-4" aria-label="目录">
-    <div class="hextra-scrollbar hx:sticky hx:top-16 hx:overflow-y-auto hx:pr-4 hx:pt-6 hx:text-sm [hyphens:auto] hx:max-h-[calc(100vh-var(--navbar-height)-env(safe-area-inset-bottom))] hx:ltr:-mr-4 hx:rtl:-ml-4">
-      <div class=" hx:sticky hx:bottom-0 hx:flex hx:flex-col hx:items-start hx:gap-2 hx:pb-8 hx:border-gray-200 hx:dark:border-neutral-800 hx:contrast-more:border-t hx:contrast-more:border-neutral-400 hx:contrast-more:shadow-none hx:contrast-more:dark:border-neutral-400">
-        <button id="backToTop" tabindex="-1" onClick="scrollUp();" class="hx:cursor-pointer hx:transition-all hx:duration-75 hx:opacity-0 hx:text-xs hx:font-medium hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-100 hx:contrast-more:text-gray-800 hx:contrast-more:dark:text-gray-50">
-          <span>返回顶部</span>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:inline hx:ltr:ml-1 hx:rtl:mr-1 hx:h-3.5 hx:w-3.5 hx:rounded-full hx:border hx:border-gray-500 hx:hover:border-gray-900 hx:dark:border-gray-400 hx:dark:hover:border-gray-100 hx:contrast-more:border-gray-800 hx:contrast-more:dark:border-gray-50">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
-          </svg>
-        </button>
-      </div>
-    </div>
-  </nav>
-
-
-    <article class="hx:w-full hx:break-words hx:flex hx:min-h-[calc(100vh-var(--navbar-height))] hx:min-w-0 hx:justify-center hx:pb-8 hx:pr-[calc(env(safe-area-inset-right)-1.5rem)]">
-      <main id="content" class="hx:w-full hx:min-w-0 hextra-max-content-width hx:px-6 hx:pt-4 hx:md:px-12">
-        
-        <div class="content">
-          <h1>Posts</h1>
-          
-        </div>
-        <div class="hx:mt-16"></div>
-        <div class="hx:mt-16"></div>
-        
-      </main>
-    </article>
-  </div>
-
-      <footer class="hextra-footer hx:bg-gray-100 hx:pb-[env(safe-area-inset-bottom)] hx:dark:bg-neutral-900 hx:print:bg-transparent"><div class="hextra-custom-footer hextra-max-footer-width hx:pl-[max(env(safe-area-inset-left),1.5rem)] hx:pr-[max(env(safe-area-inset-right),1.5rem)] hx:text-gray-600 hx:dark:text-gray-400"></div><div
-      class="hextra-max-footer-width hx:mx-auto hx:flex hx:justify-center hx:py-12 hx:pl-[max(env(safe-area-inset-left),1.5rem)] hx:pr-[max(env(safe-area-inset-right),1.5rem)] hx:text-gray-600 hx:dark:text-gray-400 hx:md:justify-start"
-    >
-      <div class="hx:flex hx:w-full hx:flex-col hx:items-center hx:sm:items-start"><div class="hx:font-semibold"><a class="hx:flex hx:text-sm hx:items-center hx:gap-1 hx:text-current" target="_blank" rel="noopener noreferrer" title="Hextra GitHub Homepage" href="https://github.com/imfing/hextra">
-    <span>由 Hextra 驱动<svg height=1em class="hx:inline-block hx:ltr:ml-1 hx:rtl:mr-1 hx:align-[-2.5px]" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="m 105.50024,22.224647 c -9.59169,-5.537563 -21.40871,-5.537563 -31.000093,0 L 39.054693,42.689119 C 29.463353,48.226675 23.55484,58.460531 23.55484,69.535642 v 40.928918 c 0,11.07542 5.908513,21.3092 15.499853,26.84652 l 35.445453,20.46446 c 9.591313,5.53732 21.408404,5.53732 31.000094,0 l 35.44507,-20.46446 c 9.59131,-5.53732 15.49985,-15.7711 15.49985,-26.84652 V 69.535642 c 0,-11.075111 -5.90854,-21.308967 -15.49985,-26.846523 z M 34.112797,85.737639 c -1.384445,2.397827 -1.384445,5.352099 0,7.749927 l 24.781554,42.922974 c 1.38437,2.39783 3.942853,3.87496 6.711592,3.87496 h 49.563107 c 2.76905,0 5.3273,-1.47713 6.71144,-3.87496 l 24.78194,-42.922974 c 1.38414,-2.397828 1.38414,-5.3521 0,-7.749927 L 121.88049,42.814746 c -1.38414,-2.397828 -3.94239,-3.874964 -6.71144,-3.874964 H 65.605944 c -2.768739,0 -5.327223,1.477059 -6.711592,3.874964 z" style="stroke-width:0.774993" /></svg></span>
-  </a></div><div class="hx:mt-6 hx:text-xs">© 2025 Hextra Project.</div></div>
-    </div></footer>
-    
-    <script defer src="/js/main.js" integrity=""></script>
-<script defer src="/js/flexsearch.9f5b5908f93ae86f1ecd4b043b799f580c2d1654e703dd9357d568ac41b2547a.js" integrity="sha256-n1tZCPk66G8ezUsEO3mfWAwtFlTnA92TV9VorEGyVHo=" crossorigin="anonymous"></script>
-        <script defer src="/en.search.js" integrity=""></script>
-  </body>
-</html>
+<!doctype html><html lang=en dir=auto data-theme=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Posts | Liu的博客</title><meta name=keywords content><meta name=description content="Posts - Liu的博客"><meta name=author content="Liu"><link rel=canonical href=https://blog.bsnow.cn/posts/><link crossorigin=anonymous href=/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css integrity="sha256-2jIR5e+Ge/K3X9WmUVz+1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as=style><link rel=icon href=https://blog.bsnow.cn/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://blog.bsnow.cn/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://blog.bsnow.cn/favicon-32x32.png><link rel=apple-touch-icon href=https://blog.bsnow.cn/apple-touch-icon.png><link rel=mask-icon href=https://blog.bsnow.cn/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate type=application/rss+xml href=https://blog.bsnow.cn/posts/index.xml title=rss><link rel=alternate hreflang=en href=https://blog.bsnow.cn/posts/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51);color-scheme:dark}.list{background:var(--theme)}.toc{background:var(--entry)}}@media(prefers-color-scheme:light){.list::-webkit-scrollbar-thumb{border-color:var(--code-bg)}}</style></noscript><script>localStorage.getItem("pref-theme")==="dark"?document.querySelector("html").dataset.theme="dark":localStorage.getItem("pref-theme")==="light"?document.querySelector("html").dataset.theme="light":window.matchMedia("(prefers-color-scheme: dark)").matches?document.querySelector("html").dataset.theme="dark":document.querySelector("html").dataset.theme="light"</script><meta property="og:url" content="https://blog.bsnow.cn/posts/"><meta property="og:site_name" content="Liu的博客"><meta property="og:title" content="Posts"><meta property="og:description" content="一个程序员的思考与记录"><meta property="og:locale" content="zh-CN"><meta property="og:type" content="website"><meta name=twitter:card content="summary"><meta name=twitter:title content="Posts"><meta name=twitter:description content="一个程序员的思考与记录"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://blog.bsnow.cn/posts/"}]}</script></head><body class=list id=top><header class=header><nav class=nav><div class=logo><a href=https://blog.bsnow.cn/ accesskey=h title="Liu的博客 (Alt + H)">Liu的博客</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme">
+<svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+<svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=https://blog.bsnow.cn/ title="🏠 首页"><span>🏠 首页</span></a></li><li><a href=https://blog.bsnow.cn/posts title="📝 文章"><span class=active>📝 文章</span></a></li><li><a href=https://blog.bsnow.cn/tags title="🏷️ 标签"><span>🏷️ 标签</span></a></li><li><a href=https://blog.bsnow.cn/tags/skill/ title="🛠️ Skills"><span>🛠️ Skills</span></a></li><li><a href=https://blog.bsnow.cn/search/ title="🔍 搜索 (Alt + /)" accesskey=/><span>🔍 搜索</span></a></li></ul></nav></header><main class=main><header class=page-header><div class=breadcrumbs><a href=https://blog.bsnow.cn/>Home</a></div><h1>Posts
+<a href=/posts/index.xml title=RSS aria-label=RSS><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" height="23"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg></a></h1></header><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>OpenClaw Skill 介绍：Healthcheck 主机安全加固</h2></header><div class=entry-content><p>OpenClaw Skill 介绍：Healthcheck 主机安全加固 简介 Healthcheck 是一个专业的 OpenClaw Skill，用于主机安全加固和风险容忍度配置。当你需要对运行 OpenClaw 的机器（笔记本、工作站、树莓派、VPS）进行安全审计、防火墙/SSH/更新加固、风险评估、暴露审查、OpenClaw cron 定时检查或版本状态检查时，这个工具就是你的最佳选择。
+核心功能 🔍 安全审计 系统安全状况评估 漏洞扫描和检测 配置安全检查 权限和访问控制审查 🛡️ 主机加固 防火墙规则配置 SSH 安全设置 自动更新配置 服务最小化 📊 风险评估 风险容忍度配置 暴露面分析 威胁建模 安全建议生成 ⏰ 定时检查 OpenClaw 安全审计定时任务 版本状态检查 健康状态监控 使用方法 基础命令 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 # 运行基础安全审计 openclaw security audit # 深度安全审计 openclaw security audit --deep # 查看系统状态 openclaw status # 深度系统状态 openclaw status --deep # 检查健康状况 openclaw health --json # 查看更新状态 openclaw update status 定时任务管理 1 2 3 4 5 6 7 8 9 10 11 # 列出所有定时任务 openclaw cron list # 添加定时任务 openclaw cron add --name "daily-audit" --schedule "0 9 * * *" --command "openclaw security audit" # 查看定时任务运行记录 openclaw cron runs # 立即运行定时任务 openclaw cron run &lt;job-id> 工作流程 Healthcheck Skill 遵循严格的工作流程：
+...</p></div><footer class=entry-footer><span title='2025-03-06 01:20:00 +0800 CST'>March 6, 2025</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>280 words</span>&nbsp;·&nbsp;<span>Liu</span></footer><a class=entry-link aria-label="post link to OpenClaw Skill 介绍：Healthcheck 主机安全加固" href=https://blog.bsnow.cn/posts/skill-healthcheck/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>OpenClaw Skill 介绍：Weather 天气查询</h2></header><div class=entry-content><p>OpenClaw Skill 介绍：Weather 天气查询 简介 Weather 是一个简单但实用的 OpenClaw Skill，用于查询天气信息。它通过 wttr.in 服务获取天气数据，无需 API 密钥即可使用。
+功能特点 🌍 支持全球任意地点的天气查询 🌡️ 实时温度、体感温度、湿度、风速 📅 3天天气预报 🌅 日出日落时间 🌙 月相信息 💨 空气质量指数（部分城市） 使用方法 基础查询 1 2 3 4 5 6 7 8 9 10 11 # 查询当前位置天气 curl wttr.in # 查询指定城市 curl wttr.in/Beijing curl wttr.in/London curl wttr.in/"New York" # 使用中文城市名 curl wttr.in/北京 curl wttr.in/上海 格式化输出 1 2 3 4 5 6 7 8 9 10 11 12 13 14 # 简洁模式（单行输出） curl "wttr.in/Beijing?format=3" # 自定义格式 curl "wttr.in/Beijing?format=%l:+%c+%t+%w+%h" # 常用格式变量 # %l - 地点 # %c - 天气状况 # %t - 温度 # %f - 体感温度 # %w - 风速 # %h - 湿度 # %p - 降水概率 JSON 输出 1 2 # 获取 JSON 格式数据 curl "wttr.in/Beijing?format=j1" 图片输出 1 2 # 获取 PNG 图片 curl "wttr.in/Beijing.png" -o weather.png 机场代码查询 1 2 3 4 5 6 7 # 使用 IATA 机场代码 curl wttr.in/PEK # 北京首都机场 curl wttr.in/PVG # 上海浦东机场 curl wttr.in/HKG # 香港机场 curl wttr.in/NRT # 东京成田机场 curl wttr.in/LHR # 伦敦希思罗机场 curl wttr.in/JFK # 纽约肯尼迪机场 在 OpenClaw 中使用 1 2 3 4 5 # 询问 OpenClaw 天气 @weather 北京今天天气怎么样？ # 或直接使用命令 curl -s "wttr.in/Beijing?format=3" 注意事项 🆓 完全免费，无需注册或 API 密钥 🌍 支持全球 200,000+ 城市 🌐 支持多语言输出 ⏱️ 数据来自世界各地的气象站，通常每 1-2 小时更新 📊 预报准确度随时间递减，3天内的预报最可靠 相关链接 wttr.in 官方文档 GitHub 仓库 简单、实用、免费 —— 这就是 Weather Skill 的魅力所在！</p></div><footer class=entry-footer><span title='2025-03-06 01:15:00 +0800 CST'>March 6, 2025</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>215 words</span>&nbsp;·&nbsp;<span>Liu</span></footer><a class=entry-link aria-label="post link to OpenClaw Skill 介绍：Weather 天气查询" href=https://blog.bsnow.cn/posts/skill-weather/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>OpenClaw Skill 介绍：Coding Agent 编程助手</h2></header><div class=entry-content><p>OpenClaw Skill 介绍：Coding Agent 编程助手 什么是 Coding Agent？ coding-agent 是一个 OpenClaw Skill，它允许你将编程任务委托给 Codex、Claude Code、Pi 等 AI 编程助手。无论是构建新功能、审查 PR、重构大型代码库，还是需要文件探索的迭代式编码，这个 Skill 都能帮上忙。
+核心特性 1. 支持多种 AI 编程助手 工具 说明 Codex OpenAI 的编程助手，支持 GPT-5.2-codex Claude Code Anthropic 的 Claude 编程助手 Pi 轻量级编程助手 OpenCode 开源替代方案 2. 灵活的工作模式 单次执行模式：
+适合快速任务 执行完自动退出 适合脚本和自动化 后台模式：
+适合长时间运行的任务 可以监控进度 支持随时介入 3. 安全的执行环境 工作目录限制：Agent 只能在指定目录内工作 Git 沙箱：需要 git 目录才能运行 权限控制：支持自动审批或手动确认 使用方法 快速开始 单次执行（推荐用于简单任务） 1 2 3 4 5 # 基本用法 - 在临时目录执行 SCRATCH=$(mktemp -d) && cd $SCRATCH && git init && codex exec "Your prompt here" # 在实际项目中执行（带 PTY） bash pty:true workdir:~/Projects/myproject command:"codex exec 'Add error handling to the API calls'" 后台模式（适合长时间任务） 1 2 3 4 # 启动后台任务（带 PTY） bash pty:true workdir:~/project background:true command:"codex exec --full-auto 'Build a snake game'" # 返回的 sessionId 用于后续管理 监控和管理后台任务 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 # 查看所有运行中的会话 process action:list # 查看特定会话的日志 process action:log sessionId:XXX # 检查会话是否还在运行 process action:poll sessionId:XXX # 向会话发送输入（如果 Agent 提问） process action:write sessionId:XXX data:"y" # 发送输入并按回车 process action:submit sessionId:XXX data:"yes" # 终止会话 process action:kill sessionId:XXX 实用场景 场景 1：快速原型开发 1 2 3 4 5 # 创建一个临时目录并初始化 git SCRATCH=$(mktemp -d) && cd $SCRATCH && git init # 让 Codex 快速构建一个原型 codex exec --full-auto "Build a React todo app with TypeScript" 场景 2：代码重构 1 2 # 在现有项目中重构代码 bash pty:true workdir:~/project command:"codex exec --full-auto 'Refactor the authentication module to use JWT'" 场景 3：PR 审查 ⚠️ 重要：不要在 OpenClaw 的项目目录中审查 PR！
+...</p></div><footer class=entry-footer><span title='2025-03-06 01:10:00 +0800 CST'>March 6, 2025</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>446 words</span>&nbsp;·&nbsp;<span>Liu</span></footer><a class=entry-link aria-label="post link to OpenClaw Skill 介绍：Coding Agent 编程助手" href=https://blog.bsnow.cn/posts/skill-coding-agent/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>OpenClaw Skill 介绍：Tavily 智能搜索</h2></header><div class=entry-content><p>OpenClaw Skill 介绍：Tavily 智能搜索 什么是 Tavily Search？ tavily-search 是一个 OpenClaw Skill，它使用 Tavily API 提供实时网络搜索、内容提取和研究能力。当你需要搜索网页、查找信息、研究主题或从 URL 提取内容时，可以使用这个工具。
+核心功能 1. 智能网页搜索 Tavily Search 提供强大的搜索能力：
+实时搜索：获取最新的网络信息 智能排序：AI 优化的搜索结果排序 深度搜索：支持基础模式和高级模式 结果丰富：包含标题、摘要、URL 和相关内容 2. 内容提取 从任意网页提取干净的内容：
+文章提取：自动识别正文内容 去噪处理：移除广告、导航等无关内容 格式保留：保持原始排版和结构 批量处理：支持多个 URL 同时提取 3. 研究能力 专为深度研究设计的功能：
+多源聚合：从多个来源整合信息 相关性分析：AI 评估内容相关性 引用追踪：方便验证信息来源 主题发现：自动识别相关主题 使用方法 环境配置 在使用之前，需要设置 API 密钥：
+1 2 3 4 5 # 设置环境变量 export TAVILY_API_KEY="your-api-key-here" # 或者在 ~/.bashrc 或 ~/.zshrc 中添加 echo 'export TAVILY_API_KEY="your-api-key-here"' >> ~/.bashrc 获取 API 密钥：访问 https://tavily.com 注册免费账户
+...</p></div><footer class=entry-footer><span title='2025-03-06 01:05:00 +0800 CST'>March 6, 2025</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>242 words</span>&nbsp;·&nbsp;<span>Liu</span></footer><a class=entry-link aria-label="post link to OpenClaw Skill 介绍：Tavily 智能搜索" href=https://blog.bsnow.cn/posts/skill-tavily-search/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>OpenClaw Skill 介绍：协作式博客写作工具</h2></header><div class=entry-content><p>OpenClaw Skill 介绍：协作式博客写作工具 什么是协作式博客写作工具？ collab-blog-writer 是一个 OpenClaw Skill，它通过多轮对话与用户共同创作博客文章。这个工具支持主题搜索、内容扩充、反复确认，最终自动发布到 Hugo 博客仓库并推送到远端。
+核心功能 1. 五阶段写作流程 阶段 1：需求确认 询问博客主题/方向 了解目标读者群体 确认文章风格（技术/随笔/教程/观点等） 确定文章长度预期 阶段 2：大纲制定 根据需求制定文章大纲 向用户展示大纲并征求意见 根据反馈调整大纲 获得用户对大纲的最终确认 阶段 3：内容创作 按章节逐步撰写内容 每完成一个主要部分向用户展示 根据用户反馈修改 主动搜索补充信息丰富内容 阶段 4：完善优化 添加标题、标签、分类 优化开头和结尾 检查排版和格式 用户最终确认 阶段 5：发布部署 生成 Hugo 格式的文章文件 保存到博客 content/posts/ 目录 提交到本地 Git 仓库 推送到远端 GitHub 仓库 2. 智能交互原则 主动确认：每个重要决策都获得用户明确确认 分步展示：按章节/段落逐步展示，给用户消化和反馈的时间 内容扩充：主动使用搜索工具查找相关信息 灵活调整：根据用户反馈随时调整方向 技术实现 文章文件格式 生成的文章使用 Hugo Front Matter 格式：
+1 2 3 4 5 6 7 8 9 --- title: "文章标题" date: 2024-03-05T10:00:00+08:00 draft: false tags: ["标签1", "标签2"] categories: ["分类"] --- # 正文内容... 发布路径 文章保存到：~/myblog/content/posts/&lt;文章文件名>.md
+...</p></div><footer class=entry-footer><span title='2025-03-06 01:00:00 +0800 CST'>March 6, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>156 words</span>&nbsp;·&nbsp;<span>Liu</span></footer><a class=entry-link aria-label="post link to OpenClaw Skill 介绍：协作式博客写作工具" href=https://blog.bsnow.cn/posts/skill-collab-blog-writer/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>从ACM笔记到AI协作者：一个程序员的十年工作流变迁</h2></header><div class=entry-content><p>从ACM笔记到AI协作者：一个程序员的十年工作流变迁 一、引言：那个在图书馆抄笔记的下午 前几天整理GitHub仓库，我无意中点开了那个叫ACM-Notes的repo。看着里面密密麻麻的Markdown文件——从《算法导论》的读书笔记，到ACM竞赛的题解，再到后来工作用的技术积累——我突然愣住了。
+那是2017年的夏天，我坐在学校图书馆的角落里，笔记本上抄满了红黑树的旋转操作。旁边摊着从CSDN打印出来的博客，上面还贴着手写的便利贴。为了搞懂一道动态规划的变种题，我在知乎、GitHub、各大OJ之间来回切换浏览器标签，从下午两点折腾到晚上十点。
+那时候，写一篇像样的技术博客，真的是个体力活。
+二、碎片时代的困境：我们在信息海洋里溺水 现在想想，那种"到处查资料"的过程，本质上是在对抗知识的碎片化。
+互联网把知识的门槛降到了最低，任何人都可以发声。这当然是好事，但它也带来了一个副作用：真正有价值的信息，被淹没在了噪音的海洋里。
+我记得最清楚的是准备ACM省赛那会儿。为了掌握图论那一块，我需要学最短路、最小生成树、网络流、二分图匹配……每个算法我都能找到十几篇教程，但问题是：
+有些教程只讲原理不给代码 有些给了代码但不讲复杂度 有些复杂度分析错了 有些用的数据结构太老，现在根本没人用 我不得不打开七八个网页，交叉对比，自己拼凑出一个"相对正确"的版本。然后还要自己写代码验证，发现某个边界情况没考虑到，再回去查……
+那个过程，就像是站在一个巨大的图书馆里，书都摆在那里，但你不知道哪几本应该放在一起读。更糟糕的是，有些书里的内容是错的，但你一开始并不知道。
+三、创作的孤独时刻：面对空白文档的焦虑 除了技术学习，写作本身也是一场孤独的战斗。
+我以前写博客，经常要面对那种空白页面的恐惧感。脑子里明明有一些模糊的想法，但就是不知道如何把它们变成流畅的文字。越是焦虑，越是写不出来；越是写不出来，越是焦虑。
+印象最深的是2019年，我想写一篇关于深度学习入门的博客。那个选题本身并不复杂，但我就是写不出来。我坐在电脑前，从晚上八点折腾到凌晨一点，文档里只有断断续续的几百字，而且自己读起来都觉得别扭。
+那种挫败感很难形容。不是简单的"写不出来"，而是一种更深层的自我怀疑——我是不是根本就不适合写东西？为什么别人能写出那么流畅的文章，我就不行？
+后来我读了一些作家的访谈，发现原来每个人都经历过这种"灵感枯竭"的困境。村上春树说他写小说时，有时候一整天只能写出一页，而且那一页还经常要删掉重写。JK罗琳说她写《哈利波特》时，经常坐在咖啡馆里盯着空白文档发呆，几个小时写不出一个字。
+原来，创作的孤独是普遍存在的。区别只是，有些人学会了与这种孤独相处，有些人找到了突破的方法。
+四、AI带来的协作新范式：从搜索到对话 我第一次真正意识到AI可能改变我的工作方式，是在2023年初。
+那时候ChatGPT刚刚发布不久，我抱着试试看的心态注册了一个账号。起初只是让它帮忙翻译几段英文文档，或者润色一下邮件。但渐渐地，我发现它能做的事情远不止这些。
+有一次，我遇到一个算法问题，是一个图论相关的变种题目。按照以前的习惯，我会先去Google搜题解，然后去LeetCode看讨论区，再去GitHub找类似的实现，整个过程可能要花两三个小时。
+但那次，我试着把题目描述直接发给了AI，问它"这道题可以用什么思路解决"。
+让我惊讶的是，它不仅给出了清晰的解题思路，还主动询问我是想了解具体的代码实现，还是想先理解算法的原理。当我说"我想理解原理"时，它用非常通俗的语言解释了相关的图论概念，甚至还举了几个生活中的例子帮助我理解。
+整个过程大概就花了二十分钟，而且我得到的不是一个死记硬背的答案，而是真正理解了背后的逻辑。
+那一刻，我突然意识到：我获取知识的方式，可能正在发生根本性的改变。
+以前，我面对的是一个由无数网页、文档、代码片段组成的静态信息网络，我需要自己去筛选、判断、整合。而现在，我面对的是一个可以与我对话、理解我的上下文、根据我的需求动态调整输出的智能体。
+这种转变，就像是从在图书馆里独自翻阅书籍，变成了有一个知识渊博的朋友随时与我讨论问题。前者当然有其价值，但后者的体验和效率，显然是更高维度的。
+后来，我开始更多地尝试用这种方式来学习和工作。遇到不懂的技术概念，我不再先去搜博客或看文档，而是直接问AI，让它用通俗易懂的方式解释。需要写一个工具脚本，我不再去GitHub上找类似的代码然后改一改，而是直接描述需求，让AI帮我生成一个基础版本，然后我再根据需要进行调整。
+这种改变带来的不仅仅是效率的提升。更重要的是，它让我从"信息的搜集者"变成了"知识的对话者"。
+五、个人工作流的重构：效率与质量的双重提升 基于这些改变，我的工作流已经彻底重构。
+以前的工作流：
+有了一个想法或需求 花大量时间搜索资料 试图从碎片中拼凑出完整图景 独自面对创作任务，承受心理压力 最终产出可能不够理想 现在的工作流：
+有了一个想法或需求 与AI对话，快速澄清和细化需求 让AI帮助设计系统化的解决方案 与AI协作完成创作，不断迭代优化 AI辅助检查和完善最终产出 这个新的工作流不仅效率更高，更重要的是质量也有了显著提升。因为我可以：
+更系统地思考问题 获取更丰富和准确的信息 在创作过程中得到即时的反馈和建议 不断优化和迭代直到满意 更重要的是，这个过程变得轻松和愉快了。以前面对复杂任务时的那种焦虑感和孤独感大大减轻了，因为我知道，我始终有一个可以对话的伙伴。
+六、未来展望：家中的智能协作者 写到这里，我不禁开始想象未来的场景。
+现在的AI助手主要还存在于数字世界——我们在屏幕上与它们对话，它们帮助我们处理信息、创作内容、解决问题。但这显然不是终点。
+想象一下，当你回到家中，有一个智能机器人可以通过自然语言与你交流，理解你的需求，并执行复杂的自动化任务。这听起来像是科幻电影的场景，但实际上，实现这一目标所需的技术正在快速成熟。
+关键在于"Skill"这个概念。
+就像我在电脑上编写Skill来扩展AI的能力一样，未来的家用机器人也将通过Skill来学习如何执行各种任务。不同的是，这些Skill将不仅仅处理数字信息，还将涉及与物理世界的交互。
+想象一下这样的场景：
+你对家中的智能机器人说：“我今晚想做一道意大利面，要简单快速的，你帮我准备一下。”
+机器人通过内置的"烹饪助手"Skill执行以下工作流：
+首先，它快速搜索适合初学者的意大利面食谱，同时检查你厨房中现有的食材库存。然后，它生成一个购物清单，列出你还需要购买的食材，并按照超市的区域进行分类，方便你快速找到。
+接下来，它将烹饪步骤按照时间线重新组织，最大化效率。比如，它会告诉你"在煮水的同时可以切洋葱"，“酱料煮的时候可以去煮面条”。
+当你开始烹饪时，机器人通过语音实时指导每一步，回答你的问题。如果你问"这个酱汁要煮多久？"，它会立即给出准确的回答。
+整个过程中，你不需要去搜索食谱、计算时间、记忆步骤，只需要与机器人自然对话，告诉它你的需求，它就会帮你处理所有的细节。
+这不仅仅是简单的自动化，而是真正意义上的智能协作——机器人理解你的意图，根据具体情境做出判断，并执行复杂的任务序列。
+而这样的场景，不只是烹饪。
+想象一下，当你需要准备一个重要的工作汇报时，机器人可以帮助你收集数据、分析趋势、制作图表，甚至根据你的演讲风格为你撰写讲稿。
+...</p></div><footer class=entry-footer><span title='2025-03-06 00:30:00 +0800 CST'>March 6, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>94 words</span>&nbsp;·&nbsp;<span>Liu</span></footer><a class=entry-link aria-label="post link to 从ACM笔记到AI协作者：一个程序员的十年工作流变迁" href=https://blog.bsnow.cn/posts/ai-workflow-revolution/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>Hello World - 我的第一篇文章</h2></header><div class=entry-content><p>Hello World! 👋 这是我的 Hugo 博客的第一篇文章。
+为什么选择 Hugo + Hextra？ Hugo 的优势 Hugo 是目前世界上最快的静态网站生成器：
+⚡️ 极速构建 - 每秒生成数千页面 📝 Markdown 原生支持 - 专注写作 🎨 主题丰富 - 300+ 主题可选 🚀 单二进制文件 - 单文件部署 Hextra 主题特色 Hextra 是一个现代化的 Hugo 主题：
+现代化设计 - 简洁、专业 全文搜索 - 内置 Fuse.js 搜索 响应式布局 - 完美适配移动端 暗黑模式 - 自动/手动切换 多语言支持 - i18n ready 代码示例 Hextra 支持语法高亮：
+1 2 3 4 5 # Python 示例 def hello_world(): print("Hello, Hugo!") hello_world() 1 2 3 4 5 6 // JavaScript 示例 const greeting = () => { console.log('Hello, Hextra!'); }; greeting(); 表格展示 功能 Hugo Jekyll Hexo 构建速度 ⚡️ 极快 🐢 慢 🚀 快 主题数量 300+ 100+ 200+ 学习曲线 平缓 较陡 平缓 社区活跃 高 中 高 引用 “The best time to plant a tree was 20 years ago. The second best time is now.” — Chinese Proverb
+...</p></div><footer class=entry-footer><span title='2024-03-05 10:00:00 +0800 CST'>March 5, 2024</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>163 words</span>&nbsp;·&nbsp;<span>Liu</span></footer><a class=entry-link aria-label="post link to Hello World - 我的第一篇文章" href=https://blog.bsnow.cn/posts/hello-world/></a></article></main><footer class=footer><span>&copy; 2026 <a href=https://blog.bsnow.cn/>Liu的博客</a></span> ·
+<span>Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+<a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentColor"><path d="M12 6H0l6-6z"/></svg>
+</a><script>let menu=document.getElementById("menu");if(menu){const e=localStorage.getItem("menu-scroll-position");e&&(menu.scrollLeft=parseInt(e,10)),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}}document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{const e=document.querySelector("html");e.dataset.theme==="dark"?(e.dataset.theme="light",localStorage.setItem("pref-theme","light")):(e.dataset.theme="dark",localStorage.setItem("pref-theme","dark"))})</script></body></html>
