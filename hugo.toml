@@ -59,6 +59,12 @@ theme = 'PaperMod'
     weight = 30
 
   [[menu.main]]
+    identifier = 'skills'
+    name = '🛠️ Skills'
+    url = '/tags/skill/'
+    weight = 35
+
+  [[menu.main]]
     identifier = 'archives'
     name = '📚 归档'
     url = '/archives'
