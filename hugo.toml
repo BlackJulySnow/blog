@@ -66,6 +66,11 @@ theme = 'PaperMod'
 
 
 
+  [[menu.main]]
+    identifier = 'search'
+    name = '🔍 搜索'
+    url = '/search/\n    weight = 40
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
