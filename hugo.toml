@@ -1,0 +1,46 @@
+baseURL = 'https://example.com'
+languageCode = 'zh-CN'
+title = '我的博客'
+theme = 'hextra'
+
+[params]
+  description = '使用 Hugo 和 Hextra 主题搭建的个人博客'
+  
+  # 导航栏
+  [params.navbar]
+    displayTitle = true
+    displayLogo = false
+    
+  # 页脚
+  [params.footer]
+    displayCopyright = true
+    displayPoweredBy = true
+
+[menu]
+  [[menu.main]]
+    name = '首页'
+    url = '/'
+    weight = 10
+    
+  [[menu.main]]
+    name = '文章'
+    url = '/posts/'
+    weight = 20
+    
+  [[menu.main]]
+    name = '关于'
+    url = '/about/'
+    weight = 30
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      table = true
+      strikethrough = true
+      linkify = true
+
+[imaging]
+  quality = 85
+  resampleFilter = 'lanczos'

@@ -1,0 +1,113 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>我的博客 – 教程</title><link>https://example.com/categories/%E6%95%99%E7%A8%8B/</link><description>Recent content in 教程 on 我的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 05 Mar 2024 10:00:00 +0800</lastBuildDate><atom:link href="https://example.com/categories/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello World - 我的第一篇文章</title><link>https://example.com/posts/hello-world/</link><pubDate>Tue, 05 Mar 2024 10:00:00 +0800</pubDate><guid>https://example.com/posts/hello-world/</guid><description>
+&lt;h1&gt;Hello World! 👋&lt;/h1&gt;&lt;p&gt;这是我的 Hugo 博客的第一篇文章。&lt;/p&gt;
+&lt;h2&gt;为什么选择 Hugo + Hextra？&lt;span class="hx:absolute hx:-mt-20" id="为什么选择-hugo--hextra"&gt;&lt;/span&gt;
+&lt;a href="#%e4%b8%ba%e4%bb%80%e4%b9%88%e9%80%89%e6%8b%a9-hugo--hextra" class="subheading-anchor" aria-label="此章节的永久链接"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Hugo 的优势&lt;span class="hx:absolute hx:-mt-20" id="hugo-的优势"&gt;&lt;/span&gt;
+&lt;a href="#hugo-%e7%9a%84%e4%bc%98%e5%8a%bf" class="subheading-anchor" aria-label="此章节的永久链接"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Hugo 是目前世界上最快的静态网站生成器：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;⚡️ &lt;strong&gt;极速构建&lt;/strong&gt; - 每秒生成数千页面&lt;/li&gt;
+&lt;li&gt;📝 &lt;strong&gt;Markdown 原生支持&lt;/strong&gt; - 专注写作&lt;/li&gt;
+&lt;li&gt;🎨 &lt;strong&gt;主题丰富&lt;/strong&gt; - 300+ 主题可选&lt;/li&gt;
+&lt;li&gt;🚀 &lt;strong&gt;单二进制文件&lt;/strong&gt; - 单文件部署&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Hextra 主题特色&lt;span class="hx:absolute hx:-mt-20" id="hextra-主题特色"&gt;&lt;/span&gt;
+&lt;a href="#hextra-%e4%b8%bb%e9%a2%98%e7%89%b9%e8%89%b2" class="subheading-anchor" aria-label="此章节的永久链接"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;a href="https://github.com/imfing/hextra"target="_blank" rel="noopener"&gt;Hextra&lt;/a&gt; 是一个现代化的 Hugo 主题：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;现代化设计&lt;/strong&gt; - 简洁、专业&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;全文搜索&lt;/strong&gt; - 内置 Fuse.js 搜索&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;响应式布局&lt;/strong&gt; - 完美适配移动端&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;暗黑模式&lt;/strong&gt; - 自动/手动切换&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;多语言支持&lt;/strong&gt; - i18n ready&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;代码示例&lt;span class="hx:absolute hx:-mt-20" id="代码示例"&gt;&lt;/span&gt;
+&lt;a href="#%e4%bb%a3%e7%a0%81%e7%a4%ba%e4%be%8b" class="subheading-anchor" aria-label="此章节的永久链接"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Hextra 支持语法高亮：&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Python 示例&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;def&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;hello_world&lt;/span&gt;():
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(&lt;span style="color:#e6db74"&gt;&amp;#34;Hello, Hugo!&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hello_world()&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="复制代码"
+aria-label="复制代码"
+data-copied-label="已复制！"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-javascript" data-lang="javascript"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// JavaScript 示例
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;const&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;greeting&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; () =&amp;gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;console&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;log&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#39;Hello, Hextra!&amp;#39;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;};
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;greeting&lt;/span&gt;();&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="复制代码"
+aria-label="复制代码"
+data-copied-label="已复制！"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;表格展示&lt;span class="hx:absolute hx:-mt-20" id="表格展示"&gt;&lt;/span&gt;
+&lt;a href="#%e8%a1%a8%e6%a0%bc%e5%b1%95%e7%a4%ba" class="subheading-anchor" aria-label="此章节的永久链接"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;功能&lt;/th&gt;
+&lt;th&gt;Hugo&lt;/th&gt;
+&lt;th&gt;Jekyll&lt;/th&gt;
+&lt;th&gt;Hexo&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;构建速度&lt;/td&gt;
+&lt;td&gt;⚡️ 极快&lt;/td&gt;
+&lt;td&gt;🐢 慢&lt;/td&gt;
+&lt;td&gt;🚀 快&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;主题数量&lt;/td&gt;
+&lt;td&gt;300+&lt;/td&gt;
+&lt;td&gt;100+&lt;/td&gt;
+&lt;td&gt;200+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;学习曲线&lt;/td&gt;
+&lt;td&gt;平缓&lt;/td&gt;
+&lt;td&gt;较陡&lt;/td&gt;
+&lt;td&gt;平缓&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;社区活跃&lt;/td&gt;
+&lt;td&gt;高&lt;/td&gt;
+&lt;td&gt;中&lt;/td&gt;
+&lt;td&gt;高&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;引用&lt;span class="hx:absolute hx:-mt-20" id="引用"&gt;&lt;/span&gt;
+&lt;a href="#%e5%bc%95%e7%94%a8" class="subheading-anchor" aria-label="此章节的永久链接"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;The best time to plant a tree was 20 years ago. The second best time is now.&amp;rdquo;
+— Chinese Proverb&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;下一步计划&lt;span class="hx:absolute hx:-mt-20" id="下一步计划"&gt;&lt;/span&gt;
+&lt;a href="#%e4%b8%8b%e4%b8%80%e6%ad%a5%e8%ae%a1%e5%88%92" class="subheading-anchor" aria-label="此章节的永久链接"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; 搭建 Hugo 博客&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; 选择 Hextra 主题&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; 发布第一篇文章&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 配置 GitHub Pages 自动部署&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 绑定自定义域名&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 添加评论系统&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;结语&lt;span class="hx:absolute hx:-mt-20" id="结语"&gt;&lt;/span&gt;
+&lt;a href="#%e7%bb%93%e8%af%ad" class="subheading-anchor" aria-label="此章节的永久链接"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;感谢阅读！如果你也想搭建类似的博客，欢迎参考 &lt;a href="https://gohugo.io/documentation/"target="_blank" rel="noopener"&gt;Hugo 官方文档&lt;/a&gt; 和 &lt;a href="https://imfing.github.io/hextra/"target="_blank" rel="noopener"&gt;Hextra 文档&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;有问题欢迎在评论区留言！👇&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Published on March 5, 2024&lt;/em&gt;&lt;/p&gt;</description></item></channel></rss>
