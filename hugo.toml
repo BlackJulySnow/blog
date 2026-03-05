@@ -1,4 +1,4 @@
-baseURL = 'https://blackjulysnow.github.io/blog'
+baseURL = 'https://blog.bsnow.cn'
 languageCode = 'zh-CN'
 title = 'Liu的博客'
 theme = 'PaperMod'
